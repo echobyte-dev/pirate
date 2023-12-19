@@ -1,0 +1,31 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+cabum/.vs
+
+cabum/Temp
+
+cabum/Library
+cabum/Assembly-CSharp.csproj
+cabum/Assembly-CSharp-Editor.csproj
+cabum/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+
+cabum/obj
+
+.vs
+/builds
+cabum/Assets/Plugins/Editor/JetBrains
+
+cabum/ProjectSettings/ProjectVersion.txt
+cabum/Packages/manifest.json
+cabum/Packages/packages-lock.json
+cabum/ProjectSettings/PackageManagerSettings.asset
+cabum/KnowledgeIsPower.sln.DotSettings.user
+
+*.csproj
+
+# Build related
+Cake/tools/**
+Cake/!tools/packages.config
+
+# Ignore media & other temp files
+*.log
+*.log.meta
